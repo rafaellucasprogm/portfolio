@@ -104,7 +104,7 @@ strong {
 }
 
 .redes-sociais li{
-
+    
     display: inline;
     font-style: normal;
     font-weight: 500;
@@ -112,6 +112,18 @@ strong {
     line-height: 19px;
     margin-right: 1.5em;
 
+}
+
+.redes-sociais a {
+
+    color: #464646;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover {
+
+    color: rgb(99, 101, 250);
+    text-decoration: underline;
 }
 
 /* Sessão sobre mim */
@@ -167,7 +179,6 @@ strong {
 
 .lista-skills li, .lista-hobbies li {
 
-    
     display: inline-block;
     box-sizing: border-box;
     margin-right: 0.5em;
@@ -182,6 +193,22 @@ strong {
     font-size: 16px;
     line-height: 19px;
     
+}
+
+.lista-skills li:hover {
+
+    transform: scale(1.2);
+    border: solid;
+    border-width: 1.5px;
+    border-color: rgb(99, 101, 250);
+}
+
+.lista-hobbies li:hover {
+
+    transform: scale(1.2);
+    border: solid;
+    border-width: 1.5px;
+    border-color: #464646
 }
 
 .lista-skills img {
