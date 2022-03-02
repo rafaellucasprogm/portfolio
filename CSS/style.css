@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
 
     background: #F5F5F5;
@@ -48,13 +52,21 @@ strong {
     padding-left: 29%;
 }
 
-.sobre li {
+.sobre a {
 
+    text-decoration: none;
+    color: #464646;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     margin: 0px 12px
+}
+
+.sobre a:hover {
+
+    color: rgb(99, 101, 250);
+    text-decoration: underline;
 }
 
 /* fim do cabeçalho */ 
