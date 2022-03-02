@@ -1,0 +1,202 @@
+body {
+
+    background: #F5F5F5;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+}
+
+strong {
+
+    font-weight: bold;
+}
+
+/* Cabeçalho */
+
+.titulo-nome {
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.titulo-nome::before {
+
+    content: "🟆 ";
+}
+
+
+.caixa {
+
+    padding-top: 30px;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+
+    display: inline;
+}
+
+.cabecalho li, .caixa div {
+
+    display: inline;
+}
+
+.sobre {
+
+    padding-left: 29%;
+}
+
+.sobre li {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0px 12px
+}
+
+/* fim do cabeçalho */ 
+
+.principal {
+
+    margin-top: 3em;
+}
+
+.conteudo-principal {
+
+    padding-top: 2em;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foto-perfil {
+
+    float: right;
+    width: 368px;
+    height: 368px;
+}
+
+.titulo-principal {
+
+    padding-top: 1em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 61px;
+    color: #464646;
+}
+
+.descricao {
+
+    margin-top: 1em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.redes-sociais {
+
+    margin-top: 1.5em;
+}
+
+.redes-sociais li{
+
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 1.5em;
+
+}
+
+/* Sessão sobre mim */
+
+.sobre-mim {
+
+    background: #EAF2FD;
+    
+}
+
+.conteudo-sobre {
+    padding: 50px 0 50px 0;
+    position: relative;
+    width: 1200px;
+    margin: 6em auto 0 auto;
+}
+
+.titulo-sobre {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 1em;
+}
+
+.paragrafo-sobre {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Skill e Hobbies*/
+
+.skills, .hobbies {
+
+    position: relative;
+    width: 1200px;
+    margin: 2em auto;
+}
+
+.skills h3, .hobbies h4 {
+
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1em;
+}
+
+.lista-skills li, .lista-hobbies li {
+
+    
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.5em;
+    width: 176px;
+    height: 174px;
+    padding-top: 6em;
+    padding-left: 1em;
+    background-color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.lista-skills img {
+    
+    display: block;
+    margin-bottom: 1em;
+    width: 24px;
+    height: 37px;
+}
+
+.lista-hobbies img {
+
+    display: block;
+    margin-bottom: 1em;
+    width: 30px;
+    height: 30px;
+
+}
