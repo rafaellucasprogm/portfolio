@@ -33,7 +33,7 @@ strong {
 
     padding-top: 30px;
     position: relative;
-    width: 1200px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -80,7 +80,7 @@ strong {
 
     padding-top: 2em;
     position: relative;
-    width: 1200px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -149,7 +149,7 @@ strong {
 .conteudo-sobre {
     padding: 50px 0 50px 0;
     position: relative;
-    width: 1200px;
+    width: 85%;
     margin: 6em auto 0 auto;
 }
 
@@ -175,7 +175,7 @@ strong {
 .skills, .hobbies {
 
     position: relative;
-    width: 1200px;
+    width: 85%;
     margin: 2em auto;
 }
 
