@@ -1,0 +1,109 @@
+.experiencias {
+
+    width: 85%;
+    margin: 0 auto;
+}
+
+.experiencias__titulo {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+.experiencias__itens{
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experiencias__itens img {
+
+    width: 60%;
+    border-radius: 0.5em;
+}
+
+.experiencias__menu {
+
+    width: 38%;
+}
+
+.experiencias__menu__titulo {
+
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.experiencias__menu__descricao {
+
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.experiencias__botoes {
+
+    display: flex;
+    padding-top: 1em;
+
+}
+
+.experiencias__botao-repo {
+
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 1em;
+    text-decoration: none;
+    margin-right: 1em;
+    transition: 0.3s;
+}
+
+.experiencias__botao-repo:hover {
+
+    background: #2A7AE4;
+    color: #ffffff;
+}
+
+
+.experiencias__botao-demo {
+
+    background: #2A7AE4;
+    color: #ffffff;
+    border: solid 1px #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 1em;
+    transition: 0.3s;
+
+}
+
+.experiencias__botao-demo:hover {
+
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    border: solid 1px #2A7AE4;
+}

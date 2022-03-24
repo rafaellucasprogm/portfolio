@@ -176,7 +176,8 @@ strong {
 
     position: relative;
     width: 85%;
-    margin: 2em auto;
+    margin: 2em auto 5em auto;
+    
 }
 
 .skills h3, .hobbies h4 {
@@ -193,6 +194,7 @@ strong {
 
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 0.5em;
     margin-right: 0.5em;
     width: 176px;
     height: 174px;
