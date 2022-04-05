@@ -1,0 +1,121 @@
+.contato__form {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 1em;
+    
+}
+
+
+
+.contato_titulo {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 1em;
+
+}
+
+.contato_descricao {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 1em;
+
+}
+
+.descri__nome {
+
+    background-color: white;
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 1em 0 0 1em;
+    border-radius: 1em 1em 0 0 ;
+}
+
+.input-nome {
+    
+    border: none;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    border-radius: 0 0 1em 1em;
+    margin-bottom: 1em;
+    outline: none;
+}
+
+.assunto {
+
+    padding: 0.3em 0 3em 1em;
+    color: black;
+    border-radius: 1em;
+    border: none;
+    margin-bottom: 1em;
+    outline: none;
+}
+
+.mensagem {
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    outline: none;
+    resize: none;
+
+}
+
+.botao-enviar {
+
+    border: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin-top: 1em;
+    padding: 1em 0 1em 0;
+    width: 30%;
+    border-radius: 0.2em;
+}
+
+.botao-enviar:hover {
+
+    cursor: pointer;
+
+}
+
+
+.input-nome:focus, .assunto:focus, .mensagem:focus  {
+
+    box-shadow: 0 2px #2A7AE4;
+    
+}
+
+
+.input-nome:hover, .assunto:hover, .mensagem:hover  {
+
+    box-shadow: 0 2px #2A7AE4;
+    
+}
+
+
+

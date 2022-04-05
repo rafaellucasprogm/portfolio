@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./CSS/formacoes/formacao.css">
     <link rel="stylesheet" href="./CSS/expericencias/experciencias.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/contato/contato.css">
+    <link rel="stylesheet" href="./CSS/contato/contatoForm.css">
 </head>
 <body>
     <header>
@@ -24,8 +26,8 @@
                         <li> <a href="#sobre-mim">Sobre mim</a></li>
                         <li> <a href="#skills">Skills</a></li>
                         <li> <a href="#hobbies">Hobbies</a></li>
-                        <li> <a href="">Formação</a></li>
-                        <li> <a href="">Projetos</a></li>
+                        <li> <a href="#formacao">Formação</a></li>
+                        <li> <a href="#experiencias">Projetos</a></li>
                         <li> <a href=""> <strong>rafael.progm@gmail.com</strong></a></li>
                     </div>
                     
@@ -47,7 +49,7 @@
                 <ul class="redes-sociais">
                     <li> <a href="https://github.com/rafaellucasprogm">Github &#129149;</a></li>
                     <li><a href="https://www.linkedin.com/in/rafael-silva-frontend/">Linkedin &#129149;</a></li>
-                    <li>Instagram &#129149;</li>
+                    <li> Instagram &#129149;</li>
                     <li>Currículo &#129149;</li>
                 </ul>
             </div>
@@ -86,7 +88,7 @@
 
         </section>
 
-        <section class="formacao">
+        <section class="formacao" id="formacao">
             <h4 class="formacao__titulo">Formação acadêmica</h4>
             <ul class="formacao__lista">
                 <li class="formacao__itens"><img src="./IMG/imgFormacoes/iconeAlura.svg" alt=""></li>
@@ -106,7 +108,7 @@
             </div>
         </section>
 
-        <section class="experiencias">
+        <section class="experiencias" id="experiencias">
             <h4 class="experiencias__titulo">Experiência profissional</h4>
             
             <section class="experiencias__itens">
@@ -122,9 +124,27 @@
             </section>
 
         </section>
+        <section class="contato-geral">
+            <section class="contato">
+                <img class="contato__img" src="./IMG/Contato/unsplash_JYGnB9gTCls.svg" alt="">
+                <form action="" class="contato__form">
+                    <legend class="contato_titulo">Contato</legend>
+                    <legend class="contato_descricao">Quer entrar em contato comigo?
+                        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+                    </legend>
+                    <label for="input-nome" class="descri__nome">Nome</label>
+                    <input type="text" name="" class="input-nome" id="input-nome">
+                    <label for="E-mail" class="descri__nome">E-mail</label>
+                    <input type="email" name="" id="E-mail" class="input-nome">
+                    <input type="text" placeholder="Assunto" class="descri__nome assunto">
+                    <textarea class="mensagem" placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
+                    <button class="botao-enviar">Enviar mensagem</button>
+                </form>
+            </section>
+        </section>
     </main>
     <footer class="rodape">
-        <h4 class="rodape__nome">Densevolvido por Rafael Lucas da Silva</h4>
+        <h4 class="rodape__nome">Densevolvido por Rafael Lucas da Silva.</h4>
         <p class="rodape__ano">2022</p>
     </footer>
     

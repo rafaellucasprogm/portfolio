@@ -65,8 +65,9 @@
 .experiencias__botao-repo {
 
     background-color: #F5F5F5;
-    color: #2A7AE4;
     border: solid 1px #2A7AE4;
+    border-radius: 0.3em;
+    color: #2A7AE4;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -88,8 +89,9 @@
 .experiencias__botao-demo {
 
     background: #2A7AE4;
-    color: #ffffff;
     border: solid 1px #2A7AE4;
+    color: #ffffff;
+    border-radius: 0.3em;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
