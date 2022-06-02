@@ -12,3 +12,11 @@
     align-items: center;
    
 }
+
+@media (max-width: 768px) {
+
+    .contato__img {
+
+        display: none;
+    }
+}

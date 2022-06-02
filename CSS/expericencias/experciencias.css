@@ -109,3 +109,23 @@
     color: #2A7AE4;
     border: solid 1px #2A7AE4;
 }
+
+@media (max-width: 768px) {
+
+    .experiencias__itens {
+
+        flex-direction: column;
+        width: auto;
+    }
+
+    .experiencias__menu {
+
+        width: auto;
+        padding-top: 1em;
+    }
+
+    .experiencias__itens img {
+
+        width: 100%;
+    }
+}

@@ -117,5 +117,17 @@
     
 }
 
+@media (max-width: 768px) {
+
+    .contato__form {
+
+        width: auto;
+    }
+
+    .botao-enviar {
+
+        width: auto;
+    }
+}
 
 

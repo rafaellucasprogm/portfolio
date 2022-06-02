@@ -108,4 +108,9 @@
         padding: 1em;
         font-size: 2em;
     }
+
+    .formacao__itens {
+
+        width: 23em;
+    }
 }
