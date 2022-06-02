@@ -1,0 +1,46 @@
+.sobre-mim {
+
+    background: #EAF2FD;
+    
+}
+
+.conteudo-sobre {
+    margin: 5em auto 0 auto;
+    padding: 6em 0 6em 0;
+    width: 85%;
+}
+
+.titulo-sobre {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.paragrafo-sobre {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+
+    .conteudo-sobre {
+
+        margin: 2em auto 0 auto;
+        padding: 4em 0 4em 0;
+    }
+
+    .titulo-sobre {
+
+        font-size: 2em;
+    }
+
+    .paragrafo-sobre {
+
+        font-size: 1em;
+    }
+
+}

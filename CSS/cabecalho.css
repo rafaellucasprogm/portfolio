@@ -1,0 +1,76 @@
+.cabecalho {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto 2em auto;
+    width: 85%;
+
+}
+
+.sobre {
+
+    display: flex;
+}
+
+.titulo-nome {
+
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.titulo-nome:before {
+    content: '✦';
+}
+
+.links {
+
+    color: #464646;
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.links:hover {
+
+    text-decoration: underline;
+}
+
+.email {
+
+    color: #464646;
+    text-decoration: none;
+    margin: 0 0 0 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .titulo-nome {
+
+        font-size: 1em;
+        
+        
+    }
+
+    .links {
+
+        display: none;
+        
+    }
+
+    .email {
+
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+}
