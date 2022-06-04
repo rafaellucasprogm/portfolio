@@ -3,6 +3,11 @@
     background-color: #EAF2FD;
 }
 
+.conteiner-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
 .contato {
 
     display: flex;

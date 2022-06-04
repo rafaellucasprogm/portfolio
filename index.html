@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="./CSS/principal.css">
 <link rel="stylesheet" href="./CSS/sobre-mim.css">
 <link rel="stylesheet" href="./CSS/skills-hobbies.css">
+
 </head>
 
 <body>
@@ -144,12 +145,23 @@
                     <legend class="contato_descricao">Quer entrar em contato comigo?
                         Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
                     </legend>
-                    <label for="input-nome" class="descri__nome">Nome</label>
-                    <input type="text" name="" class="input-nome" id="input-nome">
-                    <label for="E-mail" class="descri__nome">E-mail</label>
-                    <input type="email" name="" id="E-mail" class="input-nome">
-                    <input type="text" placeholder="Assunto" class="descri__nome assunto">
-                    <textarea class="mensagem" placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
+                    <div class="conteiner-inputs">
+                        <label for="input-nome" class="descri">Nome</label>
+                        <input type="text" maxlength="50" name="" class="input" id="input-nome" title="O nome deve conter no máximo vinte caracteres" required>
+                        <span class="escondeMensagemErro" >Preencha o campo corretamente.</span>
+                    </div>
+                    <div class="conteiner-inputs">
+                        <label for="E-mail" class="descri">E-mail</label>
+                        <input type="email" name="" id="E-mail" class="input" title="Use um email válido." required>
+                        <span class="escondeMensagemErro" >Preencha o campo corretamente.</span>
+                    </div>    
+                    <div class="conteiner-inputs">
+                        <label for="assunto"  class = "descri" >Assunto</label>
+                        <input  id="assunto"  maxlength="50" type="text" class="input" required>
+                        <span class="escondeMensagemErro">Preencha o campo corretamente.</span>
+                    </div>
+                    
+                    <textarea class="mensagem" maxlength="300" placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
                     <button class="botao-enviar">Enviar mensagem</button>
                 </form>
             </section>
@@ -160,6 +172,7 @@
         <p class="rodape__ano">2022</p>
     </footer>
 
+    <script src="./app.js" type="module"></script>
 </body>
 
 </html>
